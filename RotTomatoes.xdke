@@ -1,0 +1,13 @@
+{
+  "project": {
+    "projectSettingsVersion": "1.1",
+    "projectFiles": {},
+    "projectDirectories": {},
+    "currentService": {
+      "methodapi": "geddit",
+      "endPoint": "access_test",
+      "service": "AccessTest"
+    },
+    "initialAutoPluginCount": 0
+  }
+}

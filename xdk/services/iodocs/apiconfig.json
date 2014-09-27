@@ -1,0 +1,17 @@
+{
+  "Bananas": {
+    "name": "Lower Case API",
+    "description": "A great API",
+    "dashboardUrl": "http://developer.example.api",
+    "auth": "key",
+    "requiredLibraries": [
+      "http://example.api/example-api.js"
+    ],
+    "signature": "apiSecret"
+  },
+  "AccessTest": {
+    "name": "Google WebApp",
+    "description": "See if I can read from it.",
+    "dashboardUrl": "https://script.google.com/d/1TVDCKwv8tMXUaNXm9IgCvA9-sfFHRhN_AEDGnNQ14kmEalirs6o0IDEA/edit?usp=drive_web"
+  }
+}

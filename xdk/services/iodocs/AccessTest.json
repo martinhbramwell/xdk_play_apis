@@ -1,0 +1,14 @@
+{
+"endpoints": [
+  {
+    "name": "access_test",
+    "dashboardUrl": "",
+    "methods": [
+      {
+        "MethodName": "geddit",
+        "Synopsis": "Grabs information from the A1 data set"
+      }
+    ]
+  }
+]
+}

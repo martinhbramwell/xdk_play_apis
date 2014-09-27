@@ -1,0 +1,1211 @@
+{
+  "project": {
+    "projectSettingsVersion": "1.1",
+    "creationData": {
+      "type": "App Designer",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "appDesigner",
+      "projectGuid": "18dc8887-aeab-4b0f-8988-a5991ec958ef",
+      "lastModifiedDate": 1411771956502,
+      "creationDate": 1411670163475
+    },
+    "XDK-app-designer": "true",
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectFiles": {},
+    "projectDirectories": {
+      "www/xdk/services": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      },
+      "xdk/services/iodocs": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "libraries": [
+      {
+        "name": "Cordova",
+        "version": "2.9.0",
+        "data": {
+          "default": true
+        }
+      },
+      {
+        "name": "intelXDK",
+        "version": "4.0.0",
+        "data": {
+          "default": true
+        }
+      }
+    ],
+    "serviceMethods": [
+      {
+        "methodName": "rottentomatoesopening",
+        "serviceName": "rottentomatoes",
+        "resultType": "object",
+        "selectedPaths": {},
+        "cachedResult": {
+          "movies": [
+            {
+              "id": "771313085",
+              "title": "The Equalizer",
+              "year": 2014,
+              "mpaa_rating": "R",
+              "runtime": 131,
+              "critics_consensus": "",
+              "release_dates": {
+                "theater": "2014-09-26"
+              },
+              "ratings": {
+                "critics_rating": "Rotten",
+                "critics_score": 58,
+                "audience_score": 97
+              },
+              "synopsis": "In The Equalizer, Denzel Washington plays McCall, a man who believes he has put his mysterious past behind him and dedicated himself to beginning a new, quiet life. But when McCall meets Teri (Chloe Grace Moretz), a young girl under the control of ultra-violent Russian gangsters, he can't stand idly by - he has to help her. Armed with hidden skills that allow him to serve vengeance against anyone who would brutalize the helpless, McCall comes out of his self-imposed retirement and finds his desire for justice reawakened. If someone has a problem, if the odds are stacked against them, if they have nowhere else to turn, McCall will help. He is The Equalizer. (c) Sony",
+              "posters": {
+                "thumbnail": "http://content8.flixster.com/movie/11/18/04/11180458_tmb.jpg",
+                "profile": "http://content8.flixster.com/movie/11/18/04/11180458_tmb.jpg",
+                "detailed": "http://content8.flixster.com/movie/11/18/04/11180458_tmb.jpg",
+                "original": "http://content8.flixster.com/movie/11/18/04/11180458_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Denzel Washington",
+                  "id": "162661439",
+                  "characters": [
+                    "Robert McCall"
+                  ]
+                },
+                {
+                  "name": "Marton Csokas",
+                  "id": "162653240",
+                  "characters": [
+                    "Teddy"
+                  ]
+                },
+                {
+                  "name": "Chloe Grace Moretz",
+                  "id": "771410621",
+                  "characters": [
+                    "Teri"
+                  ]
+                },
+                {
+                  "name": "David Harbour",
+                  "id": "770772702",
+                  "characters": [
+                    "Masters"
+                  ]
+                },
+                {
+                  "name": "Bill Pullman",
+                  "id": "162654131",
+                  "characters": [
+                    "Brian Plummer"
+                  ]
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "0455944"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771313085.json",
+                "alternate": "http://www.rottentomatoes.com/m/the_equalizer_2013/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771313085/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771313085/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771313085/similar.json"
+              }
+            },
+            {
+              "id": "771350092",
+              "title": "The Boxtrolls",
+              "year": 2014,
+              "mpaa_rating": "PG",
+              "runtime": 100,
+              "critics_consensus": "",
+              "release_dates": {
+                "theater": "2014-09-26"
+              },
+              "ratings": {
+                "critics_rating": "Fresh",
+                "critics_score": 66,
+                "audience_score": 91
+              },
+              "synopsis": "A family event movie from the creators of \"Coraline\" and \"ParaNorman\" that introduces audiences to a new breed of family - The Boxtrolls, a community of quirky, mischievous creatures who have lovingly raised an orphaned human boy named Eggs (voiced by Isaac Hempstead-Wright) in the amazing cavernous home they've built beneath the streets of Cheesebridge. When the town's villain, Archibald Snatcher (Academy Award winner Ben Kingsley), comes up with a plot to get rid of the Boxtrolls, Eggs decides to venture above ground, \"into the light,\" where he meets and teams up with fabulously feisty Winnifred (Elle Fanning). Together, they devise a daring plan to save Eggs' family. Directors: Anthony Staachi and Graham Annable. (C) Focus",
+              "posters": {
+                "thumbnail": "http://content6.flixster.com/movie/11/17/99/11179940_tmb.jpg",
+                "profile": "http://content6.flixster.com/movie/11/17/99/11179940_tmb.jpg",
+                "detailed": "http://content6.flixster.com/movie/11/17/99/11179940_tmb.jpg",
+                "original": "http://content6.flixster.com/movie/11/17/99/11179940_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Ben Kingsley",
+                  "id": "162653703",
+                  "characters": [
+                    "Archibald Snatcher"
+                  ]
+                },
+                {
+                  "name": "Toni Collette",
+                  "id": "162654444",
+                  "characters": [
+                    "Lady Portley-Rind"
+                  ]
+                },
+                {
+                  "name": "Elle Fanning",
+                  "id": "528361349",
+                  "characters": [
+                    "Winnie"
+                  ]
+                },
+                {
+                  "name": "Jared Harris",
+                  "id": "162676363",
+                  "characters": [
+                    "Lord Portley-Rind"
+                  ]
+                },
+                {
+                  "name": "Simon Pegg",
+                  "id": "162684057",
+                  "characters": [
+                    "Herbert Trubshaw"
+                  ]
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "0787474"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771350092.json",
+                "alternate": "http://www.rottentomatoes.com/m/the_boxtrolls/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771350092/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771350092/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771350092/similar.json"
+              }
+            },
+            {
+              "id": "771317918",
+              "title": "The Two Faces of January",
+              "year": 2014,
+              "mpaa_rating": "PG-13",
+              "runtime": 96,
+              "critics_consensus": "",
+              "release_dates": {
+                "theater": "2014-09-26"
+              },
+              "ratings": {
+                "critics_rating": "Certified Fresh",
+                "critics_score": 84,
+                "audience_score": 92
+              },
+              "synopsis": "Screenwriter Hossein Amini (The Wings of the Dove, Drive) makes a stylish directing debut with this sleek thriller set in Greece and Istanbul, 1962, and adapted from Patricia Highsmith's novel. Intrigue begins at the Parthenon when wealthy American tourists Chester MacFarland (Viggo Mortensen) and his young wife Collete (Kirsten Dunst) meet American expat Rydal (Oscar Isaac), a scammer working as a tour guide. Instead of becoming his latest marks, the two befriend him, but a murder at the couple's hotel puts all three on the run together and creates a precarious bond between them as the trio's allegiance is put to the test. (C) Magnolia",
+              "posters": {
+                "thumbnail": "http://content7.flixster.com/movie/11/17/88/11178825_tmb.jpg",
+                "profile": "http://content7.flixster.com/movie/11/17/88/11178825_tmb.jpg",
+                "detailed": "http://content7.flixster.com/movie/11/17/88/11178825_tmb.jpg",
+                "original": "http://content7.flixster.com/movie/11/17/88/11178825_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Viggo Mortensen",
+                  "id": "162654541",
+                  "characters": [
+                    "Chester MacFarland"
+                  ]
+                },
+                {
+                  "name": "Kirsten Dunst",
+                  "id": "162654578",
+                  "characters": [
+                    "Colette MacFarland"
+                  ]
+                },
+                {
+                  "name": "Oscar Isaac",
+                  "id": "364655827",
+                  "characters": [
+                    "Rydal"
+                  ]
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "1976000"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771317918.json",
+                "alternate": "http://www.rottentomatoes.com/m/the_two_faces_of_january/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771317918/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771317918/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771317918/similar.json"
+              }
+            },
+            {
+              "id": "771306928",
+              "title": "Jimi: All Is by My Side",
+              "year": 2014,
+              "mpaa_rating": "R",
+              "runtime": 116,
+              "critics_consensus": "",
+              "release_dates": {
+                "theater": "2014-09-26"
+              },
+              "ratings": {
+                "critics_rating": "Fresh",
+                "critics_score": 72,
+                "audience_score": 92
+              },
+              "synopsis": "OutKast's Andre Benjamin stars as Jimi Hendrix in this revealing biopic from Academy Award-winning writer-director John Ridley (12 Years A Slave). Covering a year in Hendrix's life from 1966-67 as an unknown backup guitarist playing New York's Cheetah Club to making his mark in London's music scene up until his Monterey Pop triumph, the film presents an intimate portrait of the sensitive young musician on the verge of becoming a rock legend.(C) XLRator",
+              "posters": {
+                "thumbnail": "http://content7.flixster.com/movie/11/17/92/11179233_tmb.jpg",
+                "profile": "http://content7.flixster.com/movie/11/17/92/11179233_tmb.jpg",
+                "detailed": "http://content7.flixster.com/movie/11/17/92/11179233_tmb.jpg",
+                "original": "http://content7.flixster.com/movie/11/17/92/11179233_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Andre Benjamin",
+                  "id": "162653182",
+                  "characters": [
+                    "Jimi Hendrix"
+                  ]
+                },
+                {
+                  "name": "Imogen Poots",
+                  "id": "770678493"
+                },
+                {
+                  "name": "Ashley Charles",
+                  "id": "771412631",
+                  "characters": [
+                    "Keith Richards"
+                  ]
+                },
+                {
+                  "name": "Hayley Atwell",
+                  "id": "417268294",
+                  "characters": [
+                    "Linda Keith"
+                  ]
+                },
+                {
+                  "name": "Andrew Buckley",
+                  "id": "770872407"
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "2402085"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771306928.json",
+                "alternate": "http://www.rottentomatoes.com/m/jimi_all_is_by_my_side/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771306928/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771306928/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771306928/similar.json"
+              }
+            },
+            {
+              "id": "771371286",
+              "title": "Two Night Stand",
+              "year": 2014,
+              "mpaa_rating": "R",
+              "runtime": 86,
+              "release_dates": {
+                "theater": "2014-09-26"
+              },
+              "ratings": {
+                "critics_rating": "Rotten",
+                "critics_score": 15,
+                "audience_score": 90
+              },
+              "synopsis": "A no-strings-attached, online hook-up turns into a morning-after disaster for twenty-something New Yorkers Megan (Analeigh Tipton) and Alec (Miles Teller). When a paralyzing blizzard hits the city trapping them in Alec's cramped Brooklyn apartment, they are forced to get to know each other far beyond the confines of a typical one-night stand. Marking the directorial debut of Max Nichols, Two Night Stand is a sexy, romantic comedy about finding love in the digital age. The film also stars Jessica Szohr and Scott Mescudi (aka Kid Cudi). (C) eOne",
+              "posters": {
+                "thumbnail": "http://content8.flixster.com/movie/11/18/00/11180002_tmb.jpg",
+                "profile": "http://content8.flixster.com/movie/11/18/00/11180002_tmb.jpg",
+                "detailed": "http://content8.flixster.com/movie/11/18/00/11180002_tmb.jpg",
+                "original": "http://content8.flixster.com/movie/11/18/00/11180002_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Miles Teller",
+                  "id": "771077409",
+                  "characters": [
+                    "Alec"
+                  ]
+                },
+                {
+                  "name": "Analeigh Tipton",
+                  "id": "770876603",
+                  "characters": [
+                    "Megan"
+                  ]
+                },
+                {
+                  "name": "Jessica Szohr",
+                  "id": "770772064",
+                  "characters": [
+                    "Faiza"
+                  ]
+                },
+                {
+                  "name": "Scott \"Kid Cudi\" Mescudi",
+                  "id": "771354837",
+                  "characters": [
+                    "Cedric"
+                  ]
+                },
+                {
+                  "name": "Leven Rambin",
+                  "id": "770807781",
+                  "characters": [
+                    "Daisy"
+                  ]
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "2140619"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771371286.json",
+                "alternate": "http://www.rottentomatoes.com/m/two_night_stand/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771371286/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771371286/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771371286/similar.json"
+              }
+            },
+            {
+              "id": "771375825",
+              "title": "Good People",
+              "year": 2014,
+              "mpaa_rating": "R",
+              "runtime": 90,
+              "release_dates": {
+                "theater": "2014-09-26",
+                "dvd": "2014-10-28"
+              },
+              "ratings": {
+                "critics_rating": "Rotten",
+                "critics_score": 17,
+                "audience_score": 93
+              },
+              "synopsis": "Young American couple Tom and Anna Reed (James Franco and Kate Hudson) fall into severe debt while renovating Anna's family home in London. As the couple faces the loss of their dream to have a house and start a family, they discover that the tenant in the apartment below them has been murdered and he left behind a stash of cash-$400,000 worth. Though initially hesitant, Tom and Anna decide that the plan is simple: all they have to do is quietly take the money and use only what's necessary to get them out of debt. But when they start spending the money and can't seem to stop, they find themselves the target of a deadly adversary-the thief who stole it-and that's when very bad things start happening to good people. (c) Millenium",
+              "posters": {
+                "thumbnail": "http://content7.flixster.com/movie/11/17/89/11178961_tmb.png",
+                "profile": "http://content7.flixster.com/movie/11/17/89/11178961_tmb.png",
+                "detailed": "http://content7.flixster.com/movie/11/17/89/11178961_tmb.png",
+                "original": "http://content7.flixster.com/movie/11/17/89/11178961_tmb.png"
+              },
+              "abridged_cast": [
+                {
+                  "name": "James Franco",
+                  "id": "162653202",
+                  "characters": [
+                    "Tom Reed"
+                  ]
+                },
+                {
+                  "name": "Kate Hudson",
+                  "id": "162653218",
+                  "characters": [
+                    "Anna Reed"
+                  ]
+                },
+                {
+                  "name": "Anna Friel",
+                  "id": "162714834"
+                },
+                {
+                  "name": "Tom Wilkinson",
+                  "id": "162653769"
+                },
+                {
+                  "name": "Omar Sy",
+                  "id": "595303554"
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "1361318"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771375825.json",
+                "alternate": "http://www.rottentomatoes.com/m/good_people_2014/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771375825/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771375825/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771375825/similar.json"
+              }
+            },
+            {
+              "id": "771376217",
+              "title": "Pride",
+              "year": 2014,
+              "mpaa_rating": "R",
+              "runtime": 120,
+              "critics_consensus": "",
+              "release_dates": {
+                "theater": "2014-09-26"
+              },
+              "ratings": {
+                "critics_rating": "Certified Fresh",
+                "critics_score": 96,
+                "audience_score": 87
+              },
+              "synopsis": "PRIDE is inspired by an extraordinary true story. It's the summer of 1984, Margaret Thatcher is in power and the National Union of Mineworkers is on strike, prompting a London-based group of gay and lesbian activists to raise money to support the strikers' families. Initially rebuffed by the Union, the group identifies a tiny mining village in Wales and sets off to make their donation in person. As the strike drags on, the two groups discover that standing together makes for the strongest union of all. (C) CBS",
+              "posters": {
+                "thumbnail": "http://content9.flixster.com/movie/11/18/06/11180611_tmb.jpg",
+                "profile": "http://content9.flixster.com/movie/11/18/06/11180611_tmb.jpg",
+                "detailed": "http://content9.flixster.com/movie/11/18/06/11180611_tmb.jpg",
+                "original": "http://content9.flixster.com/movie/11/18/06/11180611_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Bill Nighy",
+                  "id": "162652300",
+                  "characters": [
+                    "Cliff"
+                  ]
+                },
+                {
+                  "name": "Imelda Staunton",
+                  "id": "162693364",
+                  "characters": [
+                    "Hefina"
+                  ]
+                },
+                {
+                  "name": "Dominic West",
+                  "id": "162662802",
+                  "characters": [
+                    "Jonathan"
+                  ]
+                },
+                {
+                  "name": "Paddy Considine",
+                  "id": "162652573",
+                  "characters": [
+                    "Dai"
+                  ]
+                },
+                {
+                  "name": "Andrew Scott",
+                  "id": "586476044",
+                  "characters": [
+                    "Gethin"
+                  ]
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "3169706"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771376217.json",
+                "alternate": "http://www.rottentomatoes.com/m/pride_2014/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771376217/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771376217/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771376217/similar.json"
+              }
+            },
+            {
+              "id": "771321139",
+              "title": "Maps to the Stars",
+              "year": 2014,
+              "mpaa_rating": "R",
+              "runtime": 112,
+              "critics_consensus": "",
+              "release_dates": {
+                "theater": "2014-09-27"
+              },
+              "ratings": {
+                "critics_rating": "Rotten",
+                "critics_score": 55,
+                "audience_score": 86
+              },
+              "synopsis": "With this tale of a secret-filled Hollywood family on the verge of implosion, director David Cronenberg (EASTERN PROMISES, A HISTORY OF VIOLENCE) forges both a wicked social satire and a very human ghost story from our celebrity-obsessed culture. Meet the Weiss family, who are making their way in a sun-soaked Southern California rife with money, dreams, fame, envy, angst, yearning - and relentless hauntings. Stafford Weiss (John Cusack) is a famed TV self-help therapist, whose \"Hour of Personal Power\" has brought him an A-list celebrity clientele. Meanwhile, Cristina Weiss (Olivia Williams) has her work cut out managing the career of their disaffected child-star son, Benjie (Evan Bird), a fresh graduate of rehab at age 13.",
+              "posters": {
+                "thumbnail": "http://content8.flixster.com/movie/11/17/88/11178842_tmb.jpg",
+                "profile": "http://content8.flixster.com/movie/11/17/88/11178842_tmb.jpg",
+                "detailed": "http://content8.flixster.com/movie/11/17/88/11178842_tmb.jpg",
+                "original": "http://content8.flixster.com/movie/11/17/88/11178842_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Julianne Moore",
+                  "id": "162654248",
+                  "characters": [
+                    "Havana Segrand"
+                  ]
+                },
+                {
+                  "name": "Mia Wasikowska",
+                  "id": "770688391",
+                  "characters": [
+                    "Agatha"
+                  ]
+                },
+                {
+                  "name": "Olivia Williams",
+                  "id": "162662296",
+                  "characters": [
+                    "Cristina Weiss"
+                  ]
+                },
+                {
+                  "name": "John Cusack",
+                  "id": "162652927",
+                  "characters": [
+                    "Stafford Weiss"
+                  ]
+                },
+                {
+                  "name": "Robert Pattinson",
+                  "id": "770677984"
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "2172584"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771321139.json",
+                "alternate": "http://www.rottentomatoes.com/m/maps_to_the_stars/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771321139/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771321139/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771321139/similar.json"
+              }
+            },
+            {
+              "id": "771370132",
+              "title": "Lilting",
+              "year": 2014,
+              "mpaa_rating": "Unrated",
+              "runtime": 91,
+              "critics_consensus": "",
+              "release_dates": {
+                "theater": "2014-09-26"
+              },
+              "ratings": {
+                "critics_rating": "Fresh",
+                "critics_score": 81,
+                "audience_score": 74
+              },
+              "synopsis": "Set in contemporary London, LILTING tells the story of a Cambodian-Chinese mother mourning the untimely death of her son. Her world is suddenly disrupted by the presence of a stranger. Though they don't share a common language, a translator helps piece together the memories of a man they both loved. LILTING is a touching film about unlikely connections and the tragedies that bring us together even though we may be worlds apart. (C) Strand Releasing",
+              "posters": {
+                "thumbnail": "http://content8.flixster.com/movie/11/17/99/11179966_tmb.jpg",
+                "profile": "http://content8.flixster.com/movie/11/17/99/11179966_tmb.jpg",
+                "detailed": "http://content8.flixster.com/movie/11/17/99/11179966_tmb.jpg",
+                "original": "http://content8.flixster.com/movie/11/17/99/11179966_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Ben Whishaw",
+                  "id": "364605105"
+                },
+                {
+                  "name": "Pei-pei Cheng",
+                  "id": "770675098"
+                },
+                {
+                  "name": "Andrew Leung",
+                  "id": "771280361"
+                },
+                {
+                  "name": "Peter Bowles",
+                  "id": "770698040"
+                },
+                {
+                  "name": "Naomi Christie",
+                  "id": "771480547"
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "2560102"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771370132.json",
+                "alternate": "http://www.rottentomatoes.com/m/lilting/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771370132/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771370132/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771370132/similar.json"
+              }
+            },
+            {
+              "id": "771377377",
+              "title": "Plastic",
+              "year": 2014,
+              "mpaa_rating": "R",
+              "runtime": 102,
+              "release_dates": {
+                "theater": "2014-09-26",
+                "dvd": "2014-10-27"
+              },
+              "ratings": {
+                "critics_rating": "Rotten",
+                "critics_score": 11,
+                "audience_score": 51
+              },
+              "synopsis": "High octane from start to finish, PLASTIC tells the story of intelligent and brazen Sam (Speleers), who leads a ring of recruited university students to become credit card thieves to supplement their income. They inadvertently rob a notorious gangster named Marcel (Kretschmann) and are then forced to up their game 10 times the amount stolen with interest. They take their scam on the road to Miami, the city of \"high stakes\" to pay off their debt. After a series of unfortunate mistakes, Sam's team falls short of their debt and they set their sights on a daring jewelry heist. Sam now needs to finish the scam, while turning the tables on Marcel before everyone in the team goes down. (C) Arc Entertainment",
+              "posters": {
+                "thumbnail": "http://content6.flixster.com/movie/11/18/03/11180376_tmb.jpg",
+                "profile": "http://content6.flixster.com/movie/11/18/03/11180376_tmb.jpg",
+                "detailed": "http://content6.flixster.com/movie/11/18/03/11180376_tmb.jpg",
+                "original": "http://content6.flixster.com/movie/11/18/03/11180376_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Ed Speleers",
+                  "id": "422274156",
+                  "characters": [
+                    "Sam"
+                  ]
+                },
+                {
+                  "name": "Will Poulter",
+                  "id": "770791291"
+                },
+                {
+                  "name": "Alfie Allen",
+                  "id": "770795841"
+                },
+                {
+                  "name": "Sebastian De Souza",
+                  "id": "771449933"
+                },
+                {
+                  "name": "Emma Rigby",
+                  "id": "771432644"
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "2556874"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771377377.json",
+                "alternate": "http://www.rottentomatoes.com/m/plastic_2014/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771377377/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771377377/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771377377/similar.json"
+              }
+            },
+            {
+              "id": "771380698",
+              "title": "The Song",
+              "year": 2014,
+              "mpaa_rating": "PG-13",
+              "runtime": 112,
+              "release_dates": {
+                "theater": "2014-09-26"
+              },
+              "ratings": {
+                "critics_score": -1,
+                "audience_score": 95
+              },
+              "synopsis": "THE SONG follows aspiring singer-songwriter Jed King (Alan Powell, Anthem Lights lead singer) as he struggles to catch a break and escape the long shadow of his father, a country music legend. After reluctantly accepting a gig at a local vineyard harvest festival, Jed is lovestruck by the vineyard owner's daughter, Rose (Ali Faulkner, TWILIGHT: BREAKING DAWN), and a romance quickly blooms. Soon after their wedding, Jed writes Rose \"The Song,\" which becomes a breakout hit. Thrust into a life of stardom and a world of temptation in the form of fellow performer Shelby Bale (Caitlin Nicol- Thomas, \"Nashville\"), Jed's life and marriage begin to fall apart. (C) Samuel Goldwyn",
+              "posters": {
+                "thumbnail": "http://content7.flixster.com/movie/11/17/96/11179653_tmb.jpg",
+                "profile": "http://content7.flixster.com/movie/11/17/96/11179653_tmb.jpg",
+                "detailed": "http://content7.flixster.com/movie/11/17/96/11179653_tmb.jpg",
+                "original": "http://content7.flixster.com/movie/11/17/96/11179653_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Alan Powell",
+                  "id": "770985075",
+                  "characters": [
+                    "Jed King"
+                  ]
+                },
+                {
+                  "name": "Ali Faulkner",
+                  "id": "770846383",
+                  "characters": [
+                    "Rose"
+                  ]
+                },
+                {
+                  "name": "Caitlin Nicol-Thomas",
+                  "id": "771492414"
+                },
+                {
+                  "name": "Danny Vinson",
+                  "id": "770709184"
+                },
+                {
+                  "name": "Gary Jenkins",
+                  "id": "770753558"
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "2517044"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771380698.json",
+                "alternate": "http://www.rottentomatoes.com/m/the_song/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771380698/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771380698/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771380698/similar.json"
+              }
+            },
+            {
+              "id": "771385666",
+              "title": "Mas Negro Que La Noche (Darker than Night)",
+              "year": 2014,
+              "mpaa_rating": "R",
+              "runtime": 96,
+              "release_dates": {
+                "theater": "2014-09-26"
+              },
+              "ratings": {
+                "critics_score": -1,
+                "audience_score": 90
+              },
+              "synopsis": "An update of the legendary 1975 Mexican classic horror film, Mas Negro Que La Noche tells the story of Greta (Zuria Vega), a beautiful young woman whose eccentric aunt passes away leaving her a large, once opulent mansion. When Greta moves in with her friends (Josemaria Torre, Miguel Rodarte, Adriana Louvier) she discovers that she must take care of her aunt's prized cat, Beker. The new residents take charge of the mansion, throwing wild parties and enjoying a fun filled summer until they lose track of Beker - who drowns in the mansion's pool. What was about to be the best summer of their lives quickly turns into a spine-chilling fight for their lives. (C) Pantelion",
+              "posters": {
+                "thumbnail": "http://content6.flixster.com/movie/11/18/03/11180364_tmb.jpg",
+                "profile": "http://content6.flixster.com/movie/11/18/03/11180364_tmb.jpg",
+                "detailed": "http://content6.flixster.com/movie/11/18/03/11180364_tmb.jpg",
+                "original": "http://content6.flixster.com/movie/11/18/03/11180364_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Adriana Louvier",
+                  "id": "770830825"
+                },
+                {
+                  "name": "Daniel Villar",
+                  "id": "770873319"
+                },
+                {
+                  "name": "Erendira Ibarra",
+                  "id": "770848649"
+                },
+                {
+                  "name": "Miguel Rodarte",
+                  "id": "770672249"
+                },
+                {
+                  "name": "Ona Casamiquela",
+                  "id": "771404157"
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "3450116"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771385666.json",
+                "alternate": "http://www.rottentomatoes.com/m/mas_negro_que_la_noche_2014/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771385666/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771385666/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771385666/similar.json"
+              }
+            },
+            {
+              "id": "771384038",
+              "title": "Believe Me",
+              "year": 2014,
+              "mpaa_rating": "PG-13",
+              "runtime": 93,
+              "release_dates": {
+                "theater": "2014-09-26"
+              },
+              "ratings": {
+                "critics_score": -1,
+                "audience_score": 88
+              },
+              "synopsis": "Sam (Alex Russell) stands on stage as thousands of fans go wild. Smart, charismatic, handsome, he moves them with his message, and when he calls for donations to his charity, the money pours in. Only thing is, Sam doesn't believe a word he's saying. Just months earlier, Sam was a typical college senior focused on keg stands, hookups and graduation. But when a surprise tuition bill threatens his dream of law school and leaves him thousands of dollars in the hole, he's forced to think outside the box. Convincing his three roommates they can make a killing exploiting the gullible church crowd, the guys start a sham charity and begin campaigning across the country, raising funds for a cause as fake as their message. For Sam, embezzling money is easy compared to getting attention from the person he cares about the most. When Callie (Johanna Braddy), the tour manager and Sam's love interest, finally uncovers the guys' ruse, it's Sam's moment of truth. On the final night of the tour, before a packed auditorium but alone in the spotlight, it's time for Sam to decide what he really believes.(c) Official Site",
+              "posters": {
+                "thumbnail": "http://content8.flixster.com/movie/11/17/92/11179286_tmb.jpg",
+                "profile": "http://content8.flixster.com/movie/11/17/92/11179286_tmb.jpg",
+                "detailed": "http://content8.flixster.com/movie/11/17/92/11179286_tmb.jpg",
+                "original": "http://content8.flixster.com/movie/11/17/92/11179286_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Alex Russell",
+                  "id": "771076054",
+                  "characters": [
+                    "Sam"
+                  ]
+                },
+                {
+                  "name": "Johanna E. Braddy",
+                  "id": "770695885",
+                  "characters": [
+                    "Callie"
+                  ]
+                },
+                {
+                  "name": "Zachary Knighton",
+                  "id": "437925621",
+                  "characters": [
+                    "Gabriel"
+                  ]
+                },
+                {
+                  "name": "Max Adler",
+                  "id": "771367094",
+                  "characters": [
+                    "Baker"
+                  ]
+                },
+                {
+                  "name": "Sinqua Walls",
+                  "id": "771082250",
+                  "characters": [
+                    "Tyler"
+                  ]
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "3107070"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771384038.json",
+                "alternate": "http://www.rottentomatoes.com/m/believe_me/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771384038/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771384038/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771384038/similar.json"
+              }
+            },
+            {
+              "id": "771385805",
+              "title": "My Little Pony: Equestria Girls - Rainbow Rocks",
+              "year": 2014,
+              "mpaa_rating": "Unrated",
+              "runtime": 75,
+              "release_dates": {
+                "theater": "2014-09-27",
+                "dvd": "2014-10-27"
+              },
+              "ratings": {
+                "critics_score": -1,
+                "audience_score": 84
+              },
+              "synopsis": "Canterlot High is hosting a musical showcase and Rainbow Dash, Applejack, Pinkie Pie, Rarity, and Fluttershy are going to be performing with their new band, The Rainbooms. But when a new girl group, The Dazzlings, arrives at CHS, they convince everyone to turn the friendly showcase into a Battle of the Bands. As tensions mount between the competing musical acts, a reformed Sunset Shimmer realizes that the Dazzlings may not be ordinary girls and are after something far more sinister than just being named Best Band at Canterlot High. The Rainbooms call on Princess Twilight to return to their world to help them perform a musical counter-spell so that they can win a battle that now determines the fate of the entire school.",
+              "posters": {
+                "thumbnail": "http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif",
+                "profile": "http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif",
+                "detailed": "http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif",
+                "original": "http://d3biamo577v4eu.cloudfront.net/static/images/redesign/poster_default_thumb.gif"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Tara Strong",
+                  "id": "162656146"
+                },
+                {
+                  "name": "Ashleigh Ball",
+                  "id": "754010975"
+                },
+                {
+                  "name": "Andrea Libman",
+                  "id": "770686804"
+                },
+                {
+                  "name": "Nicole Oliver",
+                  "id": "491882009"
+                },
+                {
+                  "name": "Tabitha St. Germain",
+                  "id": "770677386"
+                }
+              ],
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771385805.json",
+                "alternate": "http://www.rottentomatoes.com/m/my_little_pony_equestria_girls_rainbow_rocks/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771385805/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771385805/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771385805/similar.json"
+              }
+            },
+            {
+              "id": "771242836",
+              "title": "Advanced Style",
+              "year": 2014,
+              "mpaa_rating": "Unrated",
+              "runtime": 72,
+              "release_dates": {
+                "theater": "2014-09-26",
+                "dvd": "2014-10-06"
+              },
+              "ratings": {
+                "critics_rating": "Fresh",
+                "critics_score": 91,
+                "audience_score": 73
+              },
+              "synopsis": "Street style photographer Ari Seth Cohen and director Lina Plioplyte dive into the personal lives of New York City's most fashionable women over 60. In an industry obsessed with youth, these older women dispel conventional ideas about beauty and aging and prove that with age comes grace, confidence, boldness, flair and new, unimagined opportunities for fame and fortune. (c) Bond360",
+              "posters": {
+                "thumbnail": "http://content8.flixster.com/movie/11/18/00/11180014_tmb.jpg",
+                "profile": "http://content8.flixster.com/movie/11/18/00/11180014_tmb.jpg",
+                "detailed": "http://content8.flixster.com/movie/11/18/00/11180014_tmb.jpg",
+                "original": "http://content8.flixster.com/movie/11/18/00/11180014_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Ari Seth Cohen",
+                  "id": "771501302"
+                },
+                {
+                  "name": "Zelda Kaplan",
+                  "id": "771501303"
+                },
+                {
+                  "name": "Ilona Royce Smithkin",
+                  "id": "771501304"
+                },
+                {
+                  "name": "Lynn Dell",
+                  "id": "771488382"
+                },
+                {
+                  "name": "Tziporah Salamon",
+                  "id": "771482786"
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "3268030"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771242836.json",
+                "alternate": "http://www.rottentomatoes.com/m/advanced_style_2014/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771242836/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771242836/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771242836/similar.json"
+              }
+            },
+            {
+              "id": "771370942",
+              "title": "Jack and the Cuckoo-Clock Heart",
+              "year": 2014,
+              "mpaa_rating": "PG",
+              "runtime": 102,
+              "release_dates": {
+                "theater": "2014-09-24",
+                "dvd": "2014-10-07"
+              },
+              "ratings": {
+                "critics_rating": "Rotten",
+                "critics_score": 57,
+                "audience_rating": "Upright",
+                "audience_score": 62
+              },
+              "synopsis": "Edinburgh, 1874. On the coldest day in the history of the world, little Jack is born with his heart frozen solid. Wasting no time, midwife Madeleine takes action and saves his life by inserting a cuckoo-clock in place of his icy heart. And now Jack will live...as long as he observes three golden rules: 1 - He must never touch the hands of the clock. 2 - He must master his anger. 3 - He must never, ever fall in love. But fall in love he does, to a bespectacled young street performer, Miss Acacia, with a soul-stirring voice. Now begins a journey of escape and pursuit, from Edinburgh to Paris to Miss Acacia's home in Andalusia. Based on the novel by Mathias Malzieu, Jack and the Cuckoo-Clock Heart is a fantastical, wildly inventive tale of love and heartbreak - by turns poignant and funny - in which Jack finally learns the great joys, and ultimately the greater costs, of owning a fully formed heart. (C) DADA Films",
+              "posters": {
+                "thumbnail": "http://content7.flixster.com/movie/11/18/03/11180337_tmb.jpg",
+                "profile": "http://content7.flixster.com/movie/11/18/03/11180337_tmb.jpg",
+                "detailed": "http://content7.flixster.com/movie/11/18/03/11180337_tmb.jpg",
+                "original": "http://content7.flixster.com/movie/11/18/03/11180337_tmb.jpg"
+              },
+              "abridged_cast": [
+                {
+                  "name": "Orlando Seale",
+                  "id": "162682022"
+                },
+                {
+                  "name": "Samantha Barks",
+                  "id": "771088539"
+                },
+                {
+                  "name": "Harry Sadeghi",
+                  "id": "771495723"
+                },
+                {
+                  "name": "Stephane Cornicard",
+                  "id": "770786349"
+                },
+                {
+                  "name": "Sophia Ellis",
+                  "id": "771053386"
+                }
+              ],
+              "alternate_ids": {
+                "imdb": "1181840"
+              },
+              "links": {
+                "self": "http://api.rottentomatoes.com/api/public/v1.0/movies/771370942.json",
+                "alternate": "http://www.rottentomatoes.com/m/the_boy_with_the_cuckoo_clock_heart/",
+                "cast": "http://api.rottentomatoes.com/api/public/v1.0/movies/771370942/cast.json",
+                "reviews": "http://api.rottentomatoes.com/api/public/v1.0/movies/771370942/reviews.json",
+                "similar": "http://api.rottentomatoes.com/api/public/v1.0/movies/771370942/similar.json"
+              }
+            }
+          ],
+          "links": {
+            "self": "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/opening.json?limit=16&country=us",
+            "alternate": "http://www.rottentomatoes.com/movie/opening"
+          },
+          "link_template": "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/opening.json?limit={num_results}&country={country-code}"
+        },
+        "codeGenerationParams": {
+          "apiName": "rottentomatoes",
+          "endpointName": "Movie Lists",
+          "methodName": "opening",
+          "namespace": "intel.xdk.services."
+        },
+        "parameters": {
+          "limit": "16",
+          "country": "us"
+        },
+        "requiredLibraries": [
+          "xhr.js",
+          "xdk/services/service-credentials.js",
+          "xdk/services/service-methods.js"
+        ]
+      },
+      {
+        "methodName": "AccessTestgeddit",
+        "serviceName": "AccessTest",
+        "resultType": "string",
+        "selectedPaths": {},
+        "cachedResult": "Hello World!",
+        "codeGenerationParams": {
+          "apiName": "AccessTest",
+          "endpointName": "access_test",
+          "methodName": "geddit",
+          "namespace": "intel.xdk.services."
+        },
+        "parameters": {},
+        "requiredLibraries": [
+          "xhr.js",
+          "xdk/services/service-credentials.js",
+          "xdk/services/service-methods.js"
+        ]
+      }
+    ],
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+      {
+        "id": "org.apache.cordova.device",
+        "version": "0.2.5",
+        "selectedState": "Auto",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.splashscreen",
+        "version": "0.2.5",
+        "selectedState": "Auto",
+        "data": {},
+        "paramvals": {}
+      }
+    ],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "10",
+          "android-targetSdkVersion": "19"
+        },
+        "isActive_": true,
+        "appName_": "RotTomatoes",
+        "appID_": "xdk.intel.ad.project",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.3",
+        "crosswalkVersion_": "stable",
+        "appVersion_": "0.0.1",
+        "appDescription_": "",
+        "appAuthor_": "",
+        "appVersionCode_": "1"
+      },
+      "Android-Crosswalk": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android-Crosswalk",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19"
+        },
+        "isActive_": true,
+        "appName_": "RotTomatoes",
+        "appID_": "xdk.intel.ad.project",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.3",
+        "crosswalkVersion_": "stable",
+        "appVersion_": "0.0.1",
+        "appDescription_": "",
+        "appAuthor_": "",
+        "appVersionCode_": "1"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-target": "5",
+          "ios-configuration": "adhoc"
+        },
+        "isActive_": true,
+        "appName_": "RotTomatoes",
+        "appID_": "xdk.intel.ad.project",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.3",
+        "crosswalkVersion_": "stable",
+        "appVersion_": "0.0.1",
+        "appDescription_": ""
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": ""
+        },
+        "isActive_": true,
+        "appName_": "RotTomatoes",
+        "appID_": "xdk.intel.ad.project",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.3",
+        "crosswalkVersion_": "stable",
+        "appVersion_": "0.0.0.1",
+        "appDescription_": ""
+      },
+      "WindowsPhone8": {
+        "platform_": "wp8",
+        "runtime_": "Cordova 3.x",
+        "name_": "WindowsPhone8",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "RotTomatoes",
+        "appID_": "xdk.intel.ad.project",
+        "appAccess_": "*",
+        "icons_": [],
+        "splashes_": [],
+        "iosProvs_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "cordovaCLIVersion_": "3.3",
+        "crosswalkVersion_": "stable",
+        "appVersion_": "0.0.0.1"
+      }
+    }
+  }
+}
