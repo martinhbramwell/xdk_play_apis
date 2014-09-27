@@ -42,19 +42,6 @@ function fetchOpeningMovies() {
           fetchOpeningMoviesCallback(response);
         });
 
-/*        
-	var search = $('#search').val();
-	var url = 'http://api.rottentomatoes.com/api/public/v1.0/lists/movies/opening.json?apikey=' + apiKey;
-    
-    var apiCall = $.ajax({
-        url: url, dataType: "json"
-    });
-    
-    apiCall.done(function (data, textStatus, jqXHR) {
-        fetchOpeningMoviesCallback(jqXHR.responseText);
-    });
-*/    
-
 }
 
 function fetchOpeningMoviesCallback(data) {
@@ -84,49 +71,34 @@ function fetchOpeningMoviesCallback(data) {
 	});
 }
 
-// Make Top DVD Rentals API call to RottenTomatoes
-// Docs: http://developer.rottentomatoes.com/docs/read/json/v10/Top_Rentals
-function fetchTopRentals() {
-    if (invalidKey) {
-        invalidKeyAlert();
-        return false;
+/* ----------------------------------------------------------  */
+var pOut = '</strong></p>';
+var pIn = '<p class="center"><strong> : ';
+var listening = false;
+function tryQRcode() {
+    $("#rottentomatoes-results-output").append('<hr />');
+    if ( ! listening) {
+        document.addEventListener("intel.xdk.device.barcode.scan",function(evt){
+            $("#rottentomatoes-results-output").append(pIn + 'Heard' + pOut);
+            intel.xdk.notification.beep(1);
+            if (evt.success === true) {
+                //successful scan
+                //console.log(evt.codedata);
+                $("#rottentomatoes-results-output").append(pIn + String(evt.codedata) + pOut);
+            } else {
+                //failed scan
+                $("#rottentomatoes-results-output").append(pIn + "Scan Operation Failed" + pOut);
+            }
+        },false);
+        listening = true;
     }
-	var search = $('#search').val();
-	var url = 'http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/new_releases.json?apikey=' + apiKey;
-	var apiCall = $.get(url, function(data) {
-		fetchTopRentalsCallback(data);
-	});
-}
-
-function fetchTopRentalsCallback(payload) {
-	var data = $.parseJSON(payload);
-	if (!data.movies) {
-		alert('No DVDs were found. Sorry!');
-		return false;
-	}
-	var movies = data.movies;
-	$("#rottentomatoes-results-output").show();
-	$("#rottentomatoes-results-output").html('<p class="center"><strong>Top DVD Rentals</strong></p>');
-
-	$.each(movies, function(index, movie) {
-		var html = '<hr />';
-		html += '<div id="box-' + index + '"class="box"><img src="' + movie.posters.thumbnail + '" />';
-		if (movie.ratings.critics_score > 0) {
-			if (movie.ratings.critics_rating === 'Rotten') {
-				html += ' <img src="http://content.developer.mashery.com.s3.amazonaws.com/xdk-demos/rottentomatoes/rotten.png" />';
-			} else {
-				html += ' <img src="http://content.developer.mashery.com.s3.amazonaws.com/xdk-demos/rottentomatoes/fresh.png" />';
-			}
-			html += ' ' + movie.ratings.critics_score + '%';
-		}
-		html += '<p><a href="' + movie.links.alternate + '" target="_blank">' + movie.title + '</a></p></div>';
-		$("#rottentomatoes-results-output").append(html);
-	});
+    $("#rottentomatoes-results-output").append(pIn + 'Firing scanner' + pOut);
+    intel.xdk.device.scanBarcode();
+    $("#rottentomatoes-results-output").append(pIn + 'Fired scanner' + pOut);
 }
 
 
-
-
+/* ----------------------------------------------------------  */
 function fetchAccessTest() {
 
     intel.xdk.services.AccessTestgeddit({})
@@ -138,6 +110,6 @@ function fetchAccessTest() {
 
 function fetchAccessTestCallback(data) {
     console.log(" callback : entered " + data);
-	$("#rottentomatoes-results-output").html('<p class="center"><strong>' + data + '</strong></p>');
+	$("#rottentomatoes-results-output").html('<p class="center"><strong>' + data + pOut);
     return true;
 }

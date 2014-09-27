@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "appDesigner",
       "projectGuid": "18dc8887-aeab-4b0f-8988-a5991ec958ef",
-      "lastModifiedDate": 1411771956502,
+      "lastModifiedDate": 1411831583656,
       "creationDate": 1411670163475
     },
     "XDK-app-designer": "true",
@@ -1081,16 +1081,125 @@
     "cordovaPluginsDirectory": "plugins",
     "cordovaPlugins": [
       {
+        "id": "com.phonegap.plugins.barcodescanner",
+        "version": "",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "custom": "true",
+        "name": "BarcodeScanner",
+        "origin": "com.phonegap.plugins.barcodescanner",
+        "originType": "cordova.io"
+      },
+      {
+        "id": "org.apache.cordova.camera",
+        "version": "0.2.9",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.file",
+        "version": "0.2.5",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.battery-status",
+        "version": "0.2.5",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.device-motion",
+        "version": "0.2.4",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.media-capture",
+        "version": "0.2.8",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.device-orientation",
+        "version": "0.3.6",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.network-information",
+        "version": "0.2.8",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.contacts",
+        "version": "0.2.8",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
         "id": "org.apache.cordova.device",
         "version": "0.2.5",
-        "selectedState": "Auto",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.geolocation",
+        "version": "0.3.5",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.globalization",
+        "version": "0.2.7",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.inappbrowser",
+        "version": "0.3.0",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.media",
+        "version": "0.2.8",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.dialogs",
+        "version": "0.2.5",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.vibration",
+        "version": "0.3.5",
+        "selectedState": "Included",
         "data": {},
         "paramvals": {}
       },
       {
         "id": "org.apache.cordova.splashscreen",
         "version": "0.2.5",
-        "selectedState": "Auto",
+        "selectedState": "Included",
         "data": {},
         "paramvals": {}
       }
@@ -1105,8 +1214,8 @@
           "android-targetSdkVersion": "19"
         },
         "isActive_": true,
-        "appName_": "RotTomatoes",
-        "appID_": "xdk.intel.ad.project",
+        "appName_": "QR2GAS",
+        "appID_": "com.warehouseman.xdk.qr2google",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -1116,8 +1225,8 @@
         "cordovaCLIVersion_": "3.3",
         "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "appDescription_": "",
-        "appAuthor_": "",
+        "appDescription_": "QR code to Google Apps Script",
+        "appAuthor_": "Warehouseman",
         "appVersionCode_": "1"
       },
       "Android-Crosswalk": {
@@ -1129,8 +1238,8 @@
           "android-targetSdkVersion": "19"
         },
         "isActive_": true,
-        "appName_": "RotTomatoes",
-        "appID_": "xdk.intel.ad.project",
+        "appName_": "QR2Google",
+        "appID_": "com.warehouseman.xdk.qr2google",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
